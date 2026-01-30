@@ -1,0 +1,39 @@
+{
+  "pathway": {
+    "id": 1,
+    "title": "Drone Mapping Operator - Malawi",
+    "description": "Complete the required steps to be eligible for the Drone Mapping Operator opportunity in Malawi"
+  },
+  "steps": [
+    {
+      "id": 1,
+      "title": "Upload your CDDT Level 1 Certificate",
+      "description": "Upload your CDDT Level 1 Certificate to verify your qualifications",
+      "duration": "10 mins",
+      "difficulty": "Beginner",
+      "points": 50,
+      "prerequisites": [],
+      "required": true
+    },
+    {
+      "id": 2,
+      "title": "Upload your CDDT Level 2 Certificate",
+      "description": "Upload your CDDT Level 2 Certificate to proceed",
+      "duration": "10 mins",
+      "difficulty": "Beginner",
+      "points": 50,
+      "prerequisites": [1],
+      "required": true
+    },
+    {
+      "id": 3,
+      "title": "Complete the Drones & Data course by Atingi",
+      "description": "Complete the comprehensive Drones & Data course provided by Atingi",
+      "duration": "Self-paced",
+      "difficulty": "Intermediate",
+      "points": 100,
+      "prerequisites": [2],
+      "required": true
+    }
+  ]
+}
